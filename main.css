@@ -1,0 +1,41 @@
+body {
+    background-color: #845ec2;
+    color: rgb(247, 249, 250);
+    font-family: monospace;
+    padding: 24px;
+}
+.title {
+    font-size: 48px;
+    color: #ff6f91;
+}
+
+.list-item{
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+input {
+    height: 32px;
+    background-color: transparent;
+    color: #f9f871;
+    border-color: #ffc75f;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+button{
+    font-size: 16px;
+    padding: 16px;
+    background-color: #d65db1;
+    border-width: 0px;
+    border-radius: 4px;
+    color: #f9f871;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.list-Task{
+    font-size: 48px;
+    color: #ffc75f;
+}

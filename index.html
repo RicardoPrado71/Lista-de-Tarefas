@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" /><!--Tipo da letra-->
+    <meta name="viweport" content="width=divice-width, initial-scale=1.0" /><!--zoom inicial da pigina padrão-->
+    <tile class="list-Task">Lista de Tarefas</tile>
+    <link rel="stylesheet" href="main.css"><!--referencia do css-->
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div><!--Bloco de conteudos com layot diferentes-->
+        <h1 class="title"><!--Criar um titulo-->
+            Tarefas do dia
+        </h1>
+        <ul id="list" class="list-item"><!--Lista nao ordenada-->
+        </ul>
+    </div>
+    <div>
+        <input type="text" id="taskname" name="task_name" placeholder="Nome da tarefa" />
+        <button onclick="addNewTask()">Adicionar</button>
+        <button onclick="removeTask()">Remover</button>
+    </div>
+  </body>
+</html>
